@@ -31,8 +31,6 @@ sections:
   create: all
   match: "**/*"
   new_doc_ext: md
-  templates:
-  - very_basic
 - type: directory
   path: _i18n/en/infrastructure
   label: Infrastructure
