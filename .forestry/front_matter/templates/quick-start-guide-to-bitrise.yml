@@ -14,6 +14,12 @@ fields:
   hidden: false
   default: ''
 pages:
+- _articles/reviews/bitrise-ota-app-deployment-draft.md
+- _articles/reviews/android-tips-tricks.md
+- _articles/reviews/public-sample-apps-draft.md
+- _articles/reviews/deploying-an-ios-app-for-simulators.md
+- _articles/reviews/getting-started-with-macos-apps.md
+- _articles/reviews/getting-started-with-ionic-cordova-apps.md
 - _articles/reviews/getting-started-with-ionic-cordova-apps.md
 - _articles/reviews/getting-started-with-macos-apps.md
 - _articles/reviews/deploying-an-ios-app-for-simulators.md
