@@ -4,5 +4,4 @@ hide_body: false
 is_partial: false
 fields: []
 pages:
-- _i18n/en/getting-started/testing.md
 - _articles/getting-started/testing.md
