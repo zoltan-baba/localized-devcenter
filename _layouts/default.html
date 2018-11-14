@@ -19,6 +19,7 @@
 		</title>
 		<meta property="og:title" content="{{ site.data.basic_info.name }}">
 		<meta property="og:locale" content="en_US">
+		<meta property="og:locale" content="jp">
 		<meta property="og:url" content="{{ site.data.basic_info.page_url }}">
 		<meta property="og:site_name" content="{{ site.data.basic_info.name }}">
 		<meta name="theme-color" content="{{ site.data.colors.deep_purple }}">
@@ -59,6 +60,19 @@
 					<object type="image/svg+xml" data="/assets/images/logo-github.svg" class="source-host-logo"></object>
 					<span class="source-host-name">GitHub</span>
 				</a>
+				<div class="locale">
+				{% if site.lang == "en" %}
+				  {% capture link1 %}{{ site.baseurl_root }}/jp{{ page.url}}{% endcapture %}
+					<a href="{{ link1 }} " >
+						<object type="image/png" data="/assets/images/icons8-japan-24.png" class="source-host-logo"></object>
+					</a>
+				{% else site.lang == "jp" %}
+					{% capture link2 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+					<a href="{{ link2 }} " >
+							<object type="image/png" data="/assets/images/icons8-usa-24.png" class="source-host-logo"></object>
+					</a>
+				{% endif %}
+				</div>
 			</div>
 		</header>
 		<div class="column-parent middle-aligner">

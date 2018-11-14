@@ -30,6 +30,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-menus
   - jekyll-redirect-from
+  - jekyll-multiple-languages-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -67,3 +68,5 @@ algolia:
     - forestry-help*
     - _articles/translations/**/*.md
     - _articles/reviews/**/*.md
+
+languages: ["en", "jp"]

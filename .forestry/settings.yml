@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: document
   path: forestry-help.md
@@ -16,93 +16,93 @@ sections:
 - type: heading
   label: DevCenter articles
 - type: directory
-  path: _articles
+  path: _i18n/en
   label: Bitrise Devcenter - What is Bitrise
   create: all
   match: index.md
 - type: directory
-  path: _articles/getting-started
+  path: _i18n/en/getting-started
   label: Getting started
   create: all
   match: "**/*"
   new_doc_ext: md
 - type: directory
-  path: _articles/infrastructure
+  path: _i18n/en/infrastructure
   label: Infrastructure
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/team-management
+  path: _i18n/en/team-management
   label: Teams and organizations
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/webhooks
+  path: _i18n/en/webhooks
   label: Webhooks
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/builds
+  path: _i18n/en/builds
   label: Builds
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/code-signing
+  path: _i18n/en/code-signing
   label: Code signing
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/caching
+  path: _i18n/en/caching
   label: Caching
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/bitrise-cli
+  path: _i18n/en/bitrise-cli
   label: Bitrise CLI
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/testing
+  path: _i18n/en/testing
   label: Testing
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/deploy
+  path: _i18n/en/deploy
   label: Deployment
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/tutorials
+  path: _i18n/en/tutorials
   label: Tutorials
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/tips-and-tricks
+  path: _i18n/en/tips-and-tricks
   label: Tips and tricks
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/faq
+  path: _i18n/en/faq
   label: FAQ
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/troubleshooting
+  path: _i18n/en/troubleshooting
   label: Troubleshooting
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/tools
+  path: _i18n/en/tools
   label: Tools
   create: all
   match: "**/*"
 - type: directory
-  path: _articles/api
+  path: _i18n/en/api
   label: API
   create: all
   match: "**/*"
 - type: document
-  path: _articles/api/v0.1.md.gg
+  path: _i18n/en/api/v0.1.md.gg
   label: API .gg file
 - type: heading
   label: Data files
