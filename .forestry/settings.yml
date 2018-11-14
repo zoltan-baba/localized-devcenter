@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: _articles
-  label: All articles with translation code
-  create: all
-  match: "**/*"
 - type: document
   path: forestry-help.md
   label: Forestry User Guide
@@ -20,6 +15,11 @@ sections:
   match: "**/*"
 - type: heading
   label: DevCenter articles
+- type: directory
+  path: _articles
+  label: All articles with translation code
+  create: all
+  match: "**/*"
 - type: directory
   path: _i18n/en
   label: Bitrise Devcenter - What is Bitrise
