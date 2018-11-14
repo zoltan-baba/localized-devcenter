@@ -3,3 +3,5 @@ label: very_basic
 hide_body: false
 is_partial: false
 fields: []
+pages:
+- _articles/getting-started/testing.md
